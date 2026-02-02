@@ -159,7 +159,8 @@ PrefabInstance:
       propertyPath: m_AngularDamping
       value: 0.35
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7451590965295711560, guid: 8282ada11bc5afa4eb380e3d30a61158, type: 3}
     m_RemovedGameObjects:
     - {fileID: 441555638613856832, guid: 8282ada11bc5afa4eb380e3d30a61158, type: 3}
     m_AddedGameObjects:
@@ -196,9 +197,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.35907614
-  m_Height: 3.0575626
+  m_Height: 3.26
   m_Direction: 0
-  m_Center: {x: 0.015354514, y: 0.29128826, z: -0.016440868}
+  m_Center: {x: 0.015354514, y: 0.265, z: -0.016440868}
 --- !u!4 &6145322761620884713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3303494545686020199, guid: 8282ada11bc5afa4eb380e3d30a61158, type: 3}

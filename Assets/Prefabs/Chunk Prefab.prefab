@@ -120,6 +120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1021149098291510419}
+  - component: {fileID: -1460714875590976169}
   m_Layer: 0
   m_Name: Chunk Prefab
   m_TagString: Untagged
@@ -143,6 +144,28 @@ Transform:
   - {fileID: 1707350828184406089}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1460714875590976169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811764255149570356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8037add008769479472b2a1a75ad25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Chunk
+  fencePrefab: {fileID: 2290297875101567487, guid: 77c2bc014ca3af74cbb939a82c5e691b, type: 3}
+  applePrefab: {fileID: 1594228394407679262, guid: c8848dd4bc9e7a34297260ba12df3916, type: 3}
+  coinPrefab: {fileID: 1993151062831005259, guid: 81fd41eb70da30e40b4bd4b488f9eac4, type: 3}
+  appleSpawnChance: 0.3
+  coinsSpawnChance: 0.5
+  coinsSeperationLength: 2
+  lanes:
+  - -3
+  - 0
+  - 3
 --- !u!1 &7968882489702155672
 GameObject:
   m_ObjectHideFlags: 0

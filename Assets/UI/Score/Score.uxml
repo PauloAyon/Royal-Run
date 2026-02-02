@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Score/ScoreCs.uss?fileID=7433441132597879392&amp;guid=db7a5bf27dd1c7d46bb659e2e2a1424f&amp;type=3#ScoreCs" />
+    <ui:VisualElement name="Conteiner" class="conteiner" style="flex-grow: 1;">
+        <ui:VisualElement name="Header" class="Header" style="flex-grow: 1;">
+            <ui:VisualElement name="Score" class="score" style="flex-grow: 1;">
+                <ui:Label text="000" name="scoreText" enabled="true" class="ScoreTxt" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
